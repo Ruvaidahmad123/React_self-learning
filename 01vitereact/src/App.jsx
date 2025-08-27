@@ -1,8 +1,12 @@
-
+import Chai from "./Chai";
 function App() {
   
   return (
-    <h1>Hello, World! using React Vite</h1>
+    <div>  
+    {/**or we can use react fragment <>  </> */}
+     <h1>Hello, World! using React Vite</h1>
+    <Chai/>
+    </div>  
   )
 }
 
