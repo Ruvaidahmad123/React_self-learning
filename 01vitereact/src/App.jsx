@@ -1,10 +1,11 @@
 import Chai from "./Chai";
 function App() {
-  
+  const username='Ruvaid';
   return (
+    
     <div>  
     {/**or we can use react fragment <>  </> */}
-     <h1>Hello, World! using React Vite</h1>
+     <h1>Hello, {username}! using React Vite</h1>
     <Chai/>
     </div>  
   )
